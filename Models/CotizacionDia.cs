@@ -3,6 +3,7 @@ namespace CotizacionesAPI.Models
     public class CotizacionDia
     {
         public string? Dia { get; set; }
+        public DateTime Fecha { get; set; }
         public MonedaCotizacion? Dolar { get; set; }
     }
 

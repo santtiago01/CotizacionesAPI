@@ -27,3 +27,4 @@ C:\Users\santi\CotizacionesAPI\obj\Debug\net9.0\refint\CotizacionesAPI.dll
 C:\Users\santi\CotizacionesAPI\obj\Debug\net9.0\CotizacionesAPI.pdb
 C:\Users\santi\CotizacionesAPI\obj\Debug\net9.0\CotizacionesAPI.genruntimeconfig.cache
 C:\Users\santi\CotizacionesAPI\obj\Debug\net9.0\ref\CotizacionesAPI.dll
+C:\Users\santi\CotizacionesAPI\obj\Debug\net9.0\CotizacionesAPI.sourcelink.json
