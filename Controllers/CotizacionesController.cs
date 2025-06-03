@@ -28,14 +28,13 @@ namespace CotizacionesAPI.Controllers
             if (rows == null || rows.Count < 3)
                 return NotFound("No se encontraron filas de datos en la tabla.");
 
-            // Saltar filas de encabezado
             var dataRows = rows.Skip(2);
             var cotizaciones = new List<CotizacionDia>();
 
             foreach (var row in dataRows)
             {
                 var cells = row.SelectNodes("td");
-                if (cells == null || cells.Count < 3) // Solo necesitamos las 3 primeras columnas (Día, Dólar Compra, Dólar Venta)
+                if (cells == null || cells.Count < 3)
                     continue;
 
                 var diaTexto = cells[0].InnerText.Trim();
@@ -62,7 +61,7 @@ namespace CotizacionesAPI.Controllers
                 });
             }
 
-            // Agrupar por mes actual (puede omitirse si solo queremos el mes actual)
+            // Agrupar por mes actual
             var mesActual = DateTime.Today.ToString("MMMM yyyy", new CultureInfo("es-ES"));
 
             var resultado = new CotizacionesPorMes
