@@ -51,31 +51,6 @@ namespace CotizacionesAPI.Controllers
                     {
                         Compra = cells[1].InnerText.Trim(),
                         Venta = cells[2].InnerText.Trim()
-                    },
-                    Real = new MonedaCotizacion
-                    {
-                        Compra = cells[3].InnerText.Trim(),
-                        Venta = cells[4].InnerText.Trim()
-                    },
-                    PesoArgentino = new MonedaCotizacion
-                    {
-                        Compra = cells[5].InnerText.Trim(),
-                        Venta = cells[6].InnerText.Trim()
-                    },
-                    Yen = new MonedaCotizacion
-                    {
-                        Compra = cells[7].InnerText.Trim(),
-                        Venta = cells[8].InnerText.Trim()
-                    },
-                    Euro = new MonedaCotizacion
-                    {
-                        Compra = cells[9].InnerText.Trim(),
-                        Venta = cells[10].InnerText.Trim()
-                    },
-                    Libra = new MonedaCotizacion
-                    {
-                        Compra = cells[11].InnerText.Trim(),
-                        Venta = cells[12].InnerText.Trim()
                     }
                 };
 
