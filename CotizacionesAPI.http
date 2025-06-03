@@ -1,0 +1,6 @@
+@CotizacionesAPI_HostAddress = http://localhost:5115
+
+GET {{CotizacionesAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

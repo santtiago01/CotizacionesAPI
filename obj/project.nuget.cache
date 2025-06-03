@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "uCpiOmSCPkk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\santi\\CotizacionesAPI\\CotizacionesAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\santi\\.nuget\\packages\\htmlagilitypack\\1.12.1\\htmlagilitypack.1.12.1.nupkg.sha512",
+    "C:\\Users\\santi\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.5\\microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
+    "C:\\Users\\santi\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
