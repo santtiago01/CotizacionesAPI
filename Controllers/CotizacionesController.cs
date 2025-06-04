@@ -42,7 +42,7 @@ namespace CotizacionesAPI.Controllers
                 if (!int.TryParse(diaTexto, out int dia))
                     continue;
 
-                // Crear fecha usando día y mes/año actual
+                // Crea fecha usando día/mes/año actual
                 var hoy = DateTime.Today;
                 var fecha = new DateTime(hoy.Year, hoy.Month, dia);
 
