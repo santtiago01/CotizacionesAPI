@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CotizacionesAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d84c72186985dbcb84624094554f0f3ba5c3363")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5454ce6c6bc32a4ece1b3872ba98c657d591eb47")]
 [assembly: System.Reflection.AssemblyProductAttribute("CotizacionesAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CotizacionesAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
